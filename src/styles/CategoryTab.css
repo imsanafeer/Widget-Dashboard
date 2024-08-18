@@ -31,7 +31,7 @@
   }
 
   .no-widgets {
-    font-size: 12px;
+    /* font-size: 12px; */
     padding: 8px;
   }
 }
@@ -40,16 +40,12 @@
   .widget-item {
     /* flex-direction: column; */
     align-items: flex-start;
-    padding: 5px;
+    /* padding: 5px; */
   }
 
-  .widget-item input[type="checkbox"] {
-    margin-right: 0;
-    margin-bottom: 5px;
-  }
 
   .no-widgets {
-    font-size: 12px;
+    /* font-size: 12px; */
     padding: 5px;
   }
 }

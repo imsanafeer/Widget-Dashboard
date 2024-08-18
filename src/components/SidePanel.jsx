@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/SidePanel.css";
 import CreateWidget from "./CreateWidget";
 import CategoryTab from "./CategoryTab";
@@ -14,6 +14,12 @@ const SidePanel = ({
   const [activeTab, setActiveTab] = useState("Create Widget");
   const [localVisibilityState, setLocalVisibilityState] =
     useState(visibilityState);
+
+  useEffect(() => {
+    if (isPanelOpen) {
+      setLocalVisibilityState(visibilityState);
+    }
+  }, [isPanelOpen, visibilityState]);
 
   const handleVisibilityChange = (title) => {
     setLocalVisibilityState((prevState) => ({
