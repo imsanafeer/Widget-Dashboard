@@ -29,10 +29,10 @@ Open http://localhost:5173 in your browser to see the app.
 ## Available Scripts
 In the project directory, you can run the following commands:
 
-**npm run dev**: Starts the development server.
-**npm run build**: Bundles the app into static files for production.
-**npm run serve**: Serves the production build locally.
-**npm run format**: Formats the code using Prettier.
+**npm run dev**: Starts the development server.  
+**npm run build**: Bundles the app into static files for production.  
+**npm run serve**: Serves the production build locally.  
+**npm run format**: Formats the code using Prettier.  
 
 ## Technologies Used
 **React**: JavaScript library for building user interfaces.  
