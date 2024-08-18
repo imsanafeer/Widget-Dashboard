@@ -1,8 +1,38 @@
-# React + Vite
+Widget Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The project has been deployed at https://widget-dashboard-sanafeer.vercel.app/
+To install and run this project locally, follow these steps:
 
-Currently, two official plugins are available:
+Clone the repository:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+git clone https://github.com/imsanafeer/Widget-Dashboard.git
+Navigate to the project directory:
+
+cd dashboard
+Install the dependencies:
+
+npm install
+
+Getting Started
+To start the development server, run:
+
+npm run dev
+
+Open http://localhost:5173 in your browser to see the app.
+
+Available Scripts
+In the project directory, you can run the following commands:
+
+npm run dev: Starts the development server.
+npm run build: Bundles the app into static files for production.
+npm run serve: Serves the production build locally.
+npm run format: Formats the code using Prettier.
+
+Technologies Used
+React: JavaScript library for building user interfaces.
+Vite: Fast and lightweight development server and build tool.
+CSS Modules: Scoped CSS for styling React components.
+Prettier: Code formatter to enforce consistent style.
+
+Contributing
+If you'd like to contribute to this project, please fork the repository and create a pull request with your changes. Feel free to open issues for suggestions or bug reports.
