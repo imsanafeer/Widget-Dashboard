@@ -35,10 +35,10 @@ In the project directory, you can run the following commands:
 **npm run format**: Formats the code using Prettier.
 
 ## Technologies Used
-**React**: JavaScript library for building user interfaces.
-**Vite**: Fast and lightweight development server and build tool.
-**CSS Modules**: Scoped CSS for styling React components.
-**Prettier**: Code formatter to enforce consistent style.
+**React**: JavaScript library for building user interfaces.  
+**Vite**: Fast and lightweight development server and build tool.  
+**CSS Modules**: Scoped CSS for styling React components.  
+**Prettier**: Code formatter to enforce consistent style.  
 
 ## Contributing
 If you'd like to contribute to this project, please fork the repository and create a pull request with your changes. Feel free to open issues for suggestions or bug reports.
