@@ -63,11 +63,6 @@
     font-size: 20px; 
   }
 
-  .dashboard-header button {
-    width: 100px; 
-    font-size: 14px; 
-  }
-
   .dashboard-content {
     padding: 10px 20px; 
   }
@@ -85,11 +80,6 @@
   
   .dashboard-header h1 {
     font-size: 18px; 
-  }
-
-  .dashboard-header button {
-    width: 80px; 
-    font-size: 12px; 
   }
 
   .dashboard-content {
