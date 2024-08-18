@@ -1,0 +1,91 @@
+.widget-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.widget-area {
+  background-color: #ffffff;
+  border: 1px solid #e1ebff;
+  color: gray;
+  height: 170px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.widget-area h3 {
+  margin: 10px;
+  color: black;
+  font-weight: 500;
+}
+
+.widget-area p {
+  margin: 5px 15px;
+  text-align: left;
+}
+
+.add-widget {
+  background-color: #ffffff;
+  color: gray;
+  height: 170px;
+  width: 360px;
+  border: 1px solid #e1ebff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+  flex-wrap: wrap;
+}
+
+.widget-area:hover,
+.add-widget:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.add-widget button {
+  border: 1px solid #f0f5fa;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  width: 120px;
+  color: #808080;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.add-widget button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.delete-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border: none;
+  background: transparent;
+  color: black;
+  font-size: 36px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.delete-button:hover {
+  color: #cc0000;
+}
+
+/* Responsive Style */
+@media (max-width: 768px) {
+  .widget-container {
+    justify-content: center;
+  }
+}
