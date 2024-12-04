@@ -14,7 +14,7 @@ const Navbar = ({ onSearchChange }) => {
       <div className='nav-menu'>
         <input
           type='text'
-          placeholder='🔍 Search anything...'
+          placeholder='🔍 Search...'
           className='nav-search'
           onChange={handleSearchInputChange}
         />

@@ -46,8 +46,10 @@ const Dashboard = () => {
       widget.description.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
+  
+
   return (
-    <div className="dashboard-container">
+    <div className={`dashboard-container ${isPanelOpen ? "no-scroll" : ""}`}>
       <Navbar onSearchChange={handleSearchChange} />
       <div className="dashboard-header">
         <h1>CNAPP Dashboard</h1>
